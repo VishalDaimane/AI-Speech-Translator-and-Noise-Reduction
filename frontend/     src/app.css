@@ -1,0 +1,128 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.main-content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.record-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.record-button.recording {
+  background-color: #e53935;
+}
+
+.language-selector {
+  margin: 1rem 0;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.audio-preview {
+  margin-top: 1.5rem;
+}
+
+.audio-player {
+  margin: 1rem 0;
+}
+
+.results {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-item {
+  margin: 1rem 0;
+}
+
+.result-item strong {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.error-message {
+  color: #e53935;
+  background-color: #ffe5e5;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.processing-message {
+  color: #4CAF50;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.emotion-tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  font-size: 0.875rem;
+  color: white;
+  text-align: center;
+}
+
+.emotion-tag.happy {
+  background-color: #ffeb3b;
+  color: #333;
+}
+
+.emotion-tag.sad {
+  background-color: #03a9f4;
+}
+
+.emotion-tag.angry {
+  background-color: #e53935;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #333;
+  color: white;
+}
